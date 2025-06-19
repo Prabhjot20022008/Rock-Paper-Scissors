@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FFCBDD;
+}
+
+header{
+    height: 50px;
+    width: 30%;
+    text-align: center;
+    line-height: 50px;
+    /* background-color: #3E000C; */
+    background-color: #7C0B2B;
+    color: #FB4B4E;
+    border-radius: 15px;
+    margin-left: 35%;
+    margin-top: 10px;
+    box-shadow: 0px 4px 8px #7c0b2b;
+}
+
+
+main{
+    height: 70vh;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.choices-cont{
+    height: 250px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.choice{
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0px 4px 8px #7c0b2b; */
+    box-shadow: 0px 4px 8px #7C0B2B;
+}
+
+.choice:hover{
+    /* opacity: 0.8; */
+    background-color: #7c0b2b;
+    /* background-color: #3E000C; */
+}
+
+img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.score-board{
+    height: 100px;
+    width: 100%;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 20px;
+}
+
+.score{
+    height: 100%;
+    width: 10%;
+    /* border: 2px solid red; */
+    font-size: 2rem;
+    background-color: #3E000C;
+    /* background-color: #7c0b2b; */
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px #7c0b2b;
+}
+
+.restart{
+    height: 70px;
+    width: 70px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+#user-score,#comp-score{
+    font-size: 3rem;
+    font-weight: 900;
+    transition: all 0.23s linear;
+}
+
+#user{
+    color: #FB4B4E;
+}
+
+#comp{
+    color: #FB4B4E;
+}
+
+.result-container{
+    height: 100px;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#result{
+    font-size: 2rem;
+    background-color: #7c0b2b;
+    color: cornsilk;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 900;
+    box-shadow: 0px 4px 8px #7c0b2b;
+    transition: all 0.23s linear;
+}
