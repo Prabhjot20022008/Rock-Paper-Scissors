@@ -28,7 +28,7 @@ header{
 main{
     height: 70vh;
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .choices-cont{
@@ -69,7 +69,7 @@ img{
 .score-board{
     height: 100px;
     width: 100%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,7 +129,7 @@ img{
 .result-container{
     height: 100px;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
