@@ -2,6 +2,7 @@ const choices = document.querySelectorAll(".choice");
 const result = document.querySelector("#result");
 const userScorePara = document.querySelector("#user-score");
 const compScorePara = document.querySelector("#comp-score");
+const restartBtn = document.querySelector("#restart");
 
 let userScore = 0;
 let compScore = 0;
@@ -79,3 +80,18 @@ const playGame = (userChoice) => {
         showWinner(userWin,userChoice,compChoice);
     }
 };
+
+
+     // RESTART GAME
+const restartGame = () =>{
+    userScore = 0;
+    compScore = 0;
+    userScorePara.innerText = userScore;
+    compScorePara.innerText = compScore;
+    result.style.backgroundColor = "#7c0b2b";
+    userScorePara.style.color = "cornsilk";
+    compScorePara.style.color = "cornsilk";
+    result.innerText = "Choose your move Wisely";
+};
+
+restartBtn.addEventListener("click",restartGame);
